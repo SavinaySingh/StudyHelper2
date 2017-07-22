@@ -30,7 +30,8 @@ public class BlockedAppsAdapter extends RecyclerView.Adapter<BlockedAppsAdapter.
     public BlockedAppsAdapter(ArrayList<ApplicationInfo> arrayList, Context context) {
         this.arrayList=arrayList;
         this.context=context;
-        packageManager=context.getPackageManager();
+        packageManager=
+                context.getPackageManager();
 
     }
 
