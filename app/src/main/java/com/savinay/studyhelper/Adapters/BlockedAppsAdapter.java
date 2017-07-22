@@ -59,6 +59,7 @@ public class BlockedAppsAdapter extends RecyclerView.Adapter<BlockedAppsAdapter.
 
 
         // not able to get application icon
+        //
 
     }
 
@@ -75,8 +76,8 @@ public class BlockedAppsAdapter extends RecyclerView.Adapter<BlockedAppsAdapter.
 
         public HolderClass(View itemView) {
             super(itemView);
-            t1=(TextView) itemView.findViewById(R.id.textView8);
-            i1=(ImageView) itemView.findViewById(R.id.imageView);
+            t1= itemView.findViewById(R.id.textView8);
+            i1= itemView.findViewById(R.id.imageView);
         }
     }
 }
