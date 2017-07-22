@@ -24,6 +24,7 @@ public class BlockedAppsAdapter extends RecyclerView.Adapter<BlockedAppsAdapter.
 
     private static final String TAG ="yo" ;
     ArrayList<ApplicationInfo> arrayList;
+
      Context context;
     PackageManager packageManager;
 
